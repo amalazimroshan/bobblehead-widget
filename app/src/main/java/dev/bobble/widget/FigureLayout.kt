@@ -27,7 +27,7 @@ data class FigureLayout(
         const val MARGIN = 0.03f
 
         /** Head height as a fraction of the available figure height (target 55-60% of the figure). */
-        const val HEAD_FRACTION = 0.58f
+        const val HEAD_FRACTION = 0.52f
 
         /** Body height as a fraction of the available figure height (head + body overlap a bit). */
         const val BODY_FRACTION = 0.47f
