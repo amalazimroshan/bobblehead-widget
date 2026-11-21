@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bobblehead</string>
+    <string name="widget_name">Bobblehead</string>
+    <string name="widget_description">A bobblehead sticker made from your photo. Tap it to shake the head.</string>
+</resources>
