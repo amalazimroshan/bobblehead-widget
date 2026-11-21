@@ -20,7 +20,12 @@ jobs:
           java-version: "17"
 
       - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
+        with:
+          api-level: 35
+          build-tools: 35.0.1
+          cmdline-tools: latest
+          ndk-version: r27c
 
       # No Gradle wrapper is committed; this installs Gradle 8.11.1 directly.
       - name: Set up Gradle
